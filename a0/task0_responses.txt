@@ -1,0 +1,30 @@
+
+Q1. What classes in the given code are using inheritance? State clearly which is
+ the parent class and which are the subclasses.
+
+YOUR ANSWER:
+class Actor is the parent class of class Player, class Chaser, class Star and
+class Wall.
+class Player, class Chaser, class Star and class Wall are subclasses and inherits
+methods from class Actor
+
+
+Q2. Where in the code do you see an example of polymorphism? State the class and
+ method name where this occurs.
+
+YOUR ANSWER:
+class Actor -> method init and method move
+method init occurs in -> class Player
+method move occurs in -> class Player, class Chaser, class Star, class Wall
+
+
+Q3. What classes in the given code are using composition?
+
+YOUR ANSWER:
+composition: when we have two classes, and one refers to instances of the other,
+            that's composition
+in class Game, self.player = Player, where Player is class Player
+
+
+
+

@@ -1,0 +1,17 @@
+X X X X X X X X X X X X X X X X X X X X
+X O O O O O O O O O O O O O O O O O O X
+X O M O O O O O O O O O O O O O O M O X
+X O O O O O O O O O O O O O O O O O O X
+X O O O O O O O O O O O O O O O O O O X
+X O O O O O O O O O O O O O O O O O O X
+X O O O O O O O O O O O O O O O O O O X
+X O O O O O O O O M O O O O O O O O O X
+X O O O O O O O O O O O O O O O O O O X
+X P O O O O O O O O O O O O O O O O O X
+X O O O O O O O O O O O O O O O O O O X
+X O O O O O O O O O O O O O O O O M O X
+X O O O O O O O O O O O O O O O O O O X
+X O O O O O O O O O O O O O O O O O O X
+X O O M O O O O O O O O O O O O O O O X
+X O O O O O O O O O O O O O O O O X L X
+X X X X X X X X X X X X X X X X X X D X

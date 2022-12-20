@@ -1,0 +1,84 @@
+
+======= PROCESS LOG =======
+Name: Wen Hua Tung
+UtorID: tungwen
+Student Number: 1004767040
+
+This file is where you will tell us details about the process you went through
+in creating your project. This is where we want a record of your thoughts,
+rough notes, failed attempts, things that you tried to get to work that didn't
+work, etc. e.g. "My first step was to figure out what my main classes will be.
+I figured out they were ... And then I tried to write code for ... This code
+didn't work because ..."
+
+You have two options for the format (you can also mix and match the two) -
+
+(1)
+A day-to-day journal format.
+
+e.g.
+On Friday, I tried to add [this feature].
+I looked at [this website], which was helpful.
+I managed to almost finish adding it, but [this went wrong].
+I wanted to add it because [...], but decided not to in the end, because [...].
+If I had more time, I would [...]
+
+OR
+
+(2)
+Instead of dividing it up by days, you can divide it up
+by task/feature.
+
+e.g.
+Task 1: Added New Monster
+I tried to add this by [...]. What worked well was [...]
+What didn't work the way I wanted it to was [...]
+
+Task 2: Adding Invisible Treasure
+I tried to add this by [...]. What worked well was [...]
+What didn't work the way I wanted it to was [...]
+
+===========================
+
+YOUR LOG STARTS HERE
+
+level 3:
+a new map, the player needs to collect keys to open a lock then get to the door
+there are devils in this level, the player cannot touch the devils
+
+task 1: added new monster
+added a new monster called devil, it is a subclass of monster
+however, wasn't to sure what kind of rules i wanted for this level so decided
+to make a map first
+
+task 2: map
+made a new map with 5 monsters placed inside
+added key attribute to class Game (self.key keeps track of the numbers of the keys)
+added class key under immobile objects, since key cannot move, it is similar to
+ class Wall
+
+task 3:
+under import added "final_maze.txt" to LEVEL_MAPS
+picked out icons for devil, lock, and key
+finished setup_current_level to make level 3
+level 3 is a combination of the previous 2 levels, instead of random 7 stars,
+there are 4 keys, the devil in level 3 has the same movement as the squishy monster
+
+task 4:
+problem: after testing a few times, one of the keys randomly appeared inside the
+box and is not reachable since the lock is blocking the way
+changed the map to solve the problem
+
+task 5:
+added code in player.move so the player wont go through the lock and if the player
+wants to go through the lock before collecting all the keys, a message will be printed
+to the console saying to collect all keys
+
+task 6:
+game.game_won, added code for the player to win the game (win level 3)
+
+task 7:
+the game is playable, so i tried to polish all my code
+
+
+
